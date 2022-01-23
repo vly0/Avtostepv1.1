@@ -1591,7 +1591,7 @@ body {
 
 .images-car-item__image img {
   max-width: 100%;
-  height: 400px;
+  max-height: 400px;
 }
 
 .images-car-item__image video {
