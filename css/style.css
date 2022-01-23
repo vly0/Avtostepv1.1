@@ -2271,6 +2271,13 @@ body {
         -ms-flex-pack: right;
             justify-content: right;
   }
+  .about-us__close {
+    top: 7px;
+    right: -90%;
+  }
+  .about-us__title {
+    padding: 10px 0px 0px;
+  }
 }
 
 @media (max-width: 580px) {
