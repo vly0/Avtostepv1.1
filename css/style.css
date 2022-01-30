@@ -632,7 +632,7 @@ h6 {
 
 .popup__content-vertical {
   max-height: 800px;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 .popup__close {
@@ -681,7 +681,10 @@ h6 {
 }
 
 .slider-popup__vertical-image {
-  max-height: 760px;
+  max-height: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .slider-popup__vertical-image img {
@@ -2503,5 +2506,19 @@ body {
   }
   .about-car-card__parametr {
     font-size: 12px;
+  }
+}
+
+@media (max-height: 800px) {
+  .popup__content-vertical {
+    max-height: 700px;
+    max-width: 525px;
+  }
+}
+
+@media (max-height: 700px) {
+  .popup__content-vertical {
+    max-height: 600px;
+    max-width: 450px;
   }
 }
