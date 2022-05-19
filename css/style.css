@@ -631,7 +631,7 @@ h6 {
 }
 
 .popup__content-vertical {
-  height: 600px;
+  height: 570px;
   width: 450px;
 }
 
@@ -696,6 +696,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2491,6 +2492,10 @@ body {
   }
   .about-car-card__parametr {
     font-size: 14px;
+  }
+  .popup__content-vertical {
+    height: 510px;
+    width: 370px;
   }
 }
 
